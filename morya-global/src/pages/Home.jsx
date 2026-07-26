@@ -210,7 +210,7 @@ export default function Home() {
         <div className="mx-auto max-w-content px-6 md:px-8">
           <RevealOnScroll className="max-w-2xl">
             <p className="eyebrow text-gold">Why Choose Morya</p>
-            <h2 className="mt-4 font-display text-display-md font-extrabold text-white">
+            <h2 className="mt-4 font-display text-display-md font-extrabold text-black">
               What sets our partnership apart.
             </h2>
           </RevealOnScroll>
@@ -224,8 +224,8 @@ export default function Home() {
                 <span className="font-display text-2xl font-extrabold text-gold">
                   {String(index + 1).padStart(2, '0')}
                 </span>
-                <h3 className="font-display text-base font-bold text-white">{item.title}</h3>
-                <p className="text-sm leading-relaxed text-white/60">{item.description}</p>
+                <h3 className="font-display text-base font-bold text-black">{item.title}</h3>
+                <p className="text-sm leading-relaxed text-black/60">{item.description}</p>
               </RevealOnScroll>
             ))}
           </div>
