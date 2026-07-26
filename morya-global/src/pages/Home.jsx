@@ -206,7 +206,7 @@ export default function Home() {
       </section>
 
       {/* WHY CHOOSE US */}
-      <section className="section-pad bg-primary-dark">
+      <section className="section-pad bg-gold">
         <div className="mx-auto max-w-content px-6 md:px-8">
           <RevealOnScroll className="max-w-2xl">
             <p className="eyebrow text-gold">Why Choose Morya</p>
@@ -219,7 +219,7 @@ export default function Home() {
               <RevealOnScroll
                 key={item.title}
                 delay={(index % 4) * 0.08}
-                className="flex flex-col gap-3 bg-primary-dark p-8 transition-colors duration-300 hover:bg-secondary-deep"
+                className="flex flex-col gap-3 bg-gold p-8 transition-colors duration-300 hover:bg-gold-dark"
               >
                 <span className="font-display text-2xl font-extrabold text-gold">
                   {String(index + 1).padStart(2, '0')}
